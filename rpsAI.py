@@ -24,4 +24,7 @@ while games_won_pc < games and games_won_player < games:
     else:
         print("Play Again!")
 print(f"PC:{games_won_pc}\nPlayer:{games_won_player}")
-print("GG")
+if games_won_pc > games_won_player:
+    print("PC WON!")
+else:
+    print("PLAYER WON!")
